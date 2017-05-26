@@ -1,0 +1,43 @@
+﻿*, *::before, *::after {
+	color: black;
+}
+
+body {
+	background-color: #F5F5F5;
+}
+
+#top, #bottom {
+	background-color: rgba(238, 238, 238, 0.85);
+}
+
+#bottom > #middle-line::before  {
+	background: #0D80AC;
+}
+
+#bottom > #years-line, #bottom > #zoom {
+	background: white;
+}
+
+#bottom > #years-line::before, #bottom > #years-line > #year-frame::before {
+	background-image: url("../images/tinyline-light.png");
+}
+
+.closebox {
+	background: transparent url("../images/closebox.svg") no-repeat scroll 0px 0px;
+}
+
+.openbox {
+	background: transparent url("../images/openbox.svg") no-repeat scroll 0px 0px;
+}
+
+.normal-text {
+	color: black;
+}
+
+.describe-text {
+	color: #999999;
+}
+
+.transparent-text {
+	color: transparent;
+}

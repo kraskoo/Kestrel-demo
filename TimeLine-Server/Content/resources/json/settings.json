@@ -1,0 +1,10 @@
+﻿{
+	"leftSideStartBound": 0,
+	"normalZoom" : 1000,
+	"dividerPerZoomLevel" : 5,
+	"zoomOnScroll" : true,
+	"zoomButtonsOn" : true,
+	"framesSortOrder" : "asc",
+	"theme": "resources/themes/light.css",
+	"arrowsSize": 30
+}
